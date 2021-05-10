@@ -3,8 +3,19 @@
     src: url("../fonts/AmongUs-Regular.ttf") format("woff2");
 }
 
+body {
+    background-image: url("../images/index-background.png");
+}
+
 h1 {
+    color: rgb(255, 255, 255);
     font-family: AmongUs;
     font-size: 100px;
     text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
