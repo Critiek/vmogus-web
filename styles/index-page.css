@@ -5,7 +5,7 @@
 
 body {
     background-image: url("../images/index-background.png");
-    object-fit: contain;
+    object-fit: cover;
 }
 
 h1 {
