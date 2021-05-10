@@ -1,0 +1,10 @@
+@font-face {
+    font-family: AmongUs;
+    src: url("../fonts/AmongUs-Regular.ttf") format("woff2");
+}
+
+h1 {
+    font-family: AmongUs;
+    font-size: 100px;
+    text-align: center;
+}
