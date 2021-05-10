@@ -17,16 +17,5 @@
     <p>V-Mogus is an up and coming fan-made high quality recreation of the hit game "Among Us" in the 3rd dimension with an addition of new classes, unlockable items, drip and more.</p>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <script>
-      const htmlDocument = document.implementation.createHTMLDocument();
-      const customURL = htmlDocument.createElement( 'base' );
-      customURL.href = "https://v-mogus.herokuapp.com/index.html";
-      htmlDocument.head.append( customURL );
-      console.log("Base URL="+customURL.href);
-      const modifiedURL = htmlDocument.createElement("a");
-      modifiedURL.href = "../home";
-      htmlDocument.body.append( modifiedURL );
-      console.log("After Modifying URL="+ modifiedURL.href );
-   </script>
   </body>
 </html>
