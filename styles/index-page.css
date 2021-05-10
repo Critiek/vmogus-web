@@ -5,8 +5,7 @@
 
 body {
     background-image: url("../images/index-background.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 h1 {
